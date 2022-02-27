@@ -1,0 +1,173 @@
+body{
+    background-color: rgb(96, 100, 100);
+
+}
+* {
+	box-sizing: border-box;
+}
+.container{
+    max-width: 1280px;
+    margin: 0 auto;
+   
+    text-align: center;
+}
+
+
+ul{
+   list-style-type: none;
+}
+.user__list {
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    max-width: 1280px;
+    width: 100%;
+    flex-wrap: wrap;
+    gap: 30px;
+    justify-content: center;
+    text-align: left;
+    list-style-type: none;
+   
+
+}
+.user__item{
+    margin: 0;
+    width: 220px;
+    padding: 20px;
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+.user__item:hover{
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
+.user__name{
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-size: 24px;
+}
+
+.user__username{
+    margin: 0;
+    margin-bottom: 5px;
+    padding: 0;
+    font-size: 20px;
+}
+
+.user__link{
+   
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.address__list{
+    margin: 0;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    padding: 0;
+
+}
+.post-btn{
+    border-radius: 5px;
+    background-color: rgb(18, 20, 20);
+    color: aliceblue;
+    
+    
+}
+.post-btn:hover {
+    background-color: blueviolet;
+}
+
+.log-out__btn{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(18, 20, 20);
+    color: aliceblue;
+    
+
+}
+.log-out__btn:hover{
+    background-color: blueviolet;
+}
+
+/* --------Post page----------*/
+.back__link{
+    margin: 0 auto;
+    text-decoration: none;
+    border: 1px solid black;
+    padding: 5px;
+    background-color: rgb(18, 20, 20);
+    border-radius: 5px;
+    display: block;
+    width: 60px;
+    color: aliceblue;
+}
+.back__link:hover{
+    background-color: blueviolet;
+}
+
+
+.post__list{
+    max-width: 1280px;
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+.post__item{
+   
+    padding: 20px;
+    max-width: 400px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: antiquewhite;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+}
+
+.post__button{
+    margin-bottom: 10px;
+    border-radius: 5px;
+    background-color: rgb(18, 20, 20);
+    color: aliceblue;
+    
+
+}
+.post__button:hover{
+    background-color: blueviolet;
+}
+
+
+
+
+/* ------comment-------- */
+
+
+.comment__list{
+    margin: 0;
+    padding: 0;
+    min-width: 1280px;
+ 
+    
+}
+.comment__item{
+    margin: 0 auto;
+    margin-bottom: 5px;
+    padding: 20px;
+    max-width: 400px;
+   
+    background-color: antiquewhite;
+    border-radius: 8px;
+}
+
+.com__user__name{
+    margin: 0;
+    padding: 0;
+    margin-bottom: 5px;
+}
+.com__user__link{
+    text-decoration: none;
+    font-size: 16px;
+}

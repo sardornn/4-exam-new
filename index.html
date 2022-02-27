@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>home</title>
+</head>
+<body>
+    
+    <div class="container">
+        <ul class="user__list"></ul>
+
+    <button class="log-out__btn">Log out</button>
+    </div>
+
+    
+    <template id="user__template">
+        <li class="user__item">
+            <p class="user__name">Sardor Noraliev</p>
+            <p class="user__username">Sardor Noraliev</p>
+            <a class="user__link" href="mailto:sardornoraliev01@gmail.com">sardornoraliev01@gmail.com</a>
+            <ul class="address__list">
+                <li class="address__street"></li>
+                <li class="address__suite"></li>
+                <li class="address__city"></li>
+            </ul>
+            <button class="post-btn" data-uuid="1">Posts</button>
+        </li>
+    </template>
+
+    <script src="./js/index.js"></script>
+</body>
+</html>
